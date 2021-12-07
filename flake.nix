@@ -1,6 +1,5 @@
 {
-  # https://github.com/fort-nix/nix-bitcoin/pull/428
-  inputs.nix-bitcoin.url = "github:erikarvstedt/nix-bitcoin/bitcoind-remote-preset";
+  inputs.nix-bitcoin.url = "github:fort-nix/nix-bitcoin";
 
   outputs = { self, nix-bitcoin }: let
     system = "x86_64-linux";
